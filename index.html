@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Kyoka | Unique and Authentic Vintage Designer Jewellery</title>
+        <meta name="description"
+            content="Discover unique and authentic vintage designer jewellery at Kyoka. Explore timeless collections, elegant craftsmanship, and luxury pieces." />
+        <meta name="keywords"
+            content="Kyoka, vintage jewellery, designer jewellery, luxury jewellery, rings, fine jewellery, collections" />
+        <meta name="author" content="Kyoka" />
+        <meta name="robots" content="index, follow" />
+        <meta name="theme-color" content="#edf0ea" />
+        <link rel="canonical" href="https://kyoka.com/" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Kyoka | Unique and Authentic Vintage Designer Jewellery" />
+        <meta property="og:description" content="Discover unique and authentic vintage designer jewellery at Kyoka." />
+        <meta property="og:url" content="https://kyoka.com/" />
+        <meta property="og:site_name" content="Kyoka" />
+        <meta property="og:image" content="images/hero-1.jpg" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Kyoka | Unique and Authentic Vintage Designer Jewellery" />
+        <meta name="twitter:description" content="Discover unique and authentic vintage designer jewellery at Kyoka." />
+        <meta name="twitter:image" content="images/hero-1.jpg" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap"
+            rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            kyokaBg: "#eef0ea",
+                            kyokaText: "#24211e",
+                            kyokaWhite: "#fbfaf6",
+                            kyokaLine: "rgba(0,0,0,0.06)"
+                        },
+                        fontFamily: {
+                            primary: ['"EB Garamond"', "serif"],
+                            secondary: ['"Nunito Sans"', "sans - serif"]
+                        },
+                        boxShadow: {
+                            kyokaMenu: "0 20px 60px rgba(0,0,0,0.12)"
+                        }
+                    }
+                }
+            };
+        </script>
+
+        <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Kyoka",
+        "url": "https://kyoka.com/",
+        "description": "Unique and authentic vintage designer jewellery collections at Kyoka.",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Kyoka"
+        }
+        }
+        </script>
+    </head>
+
+    <body>
+        <div class="mouse-glow" id="mouseGlow" aria-hidden="true"></div>
+
+        <a href="#main-content"
+            class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[999] focus:bg-black focus:px-4 focus:py-2 focus:text-white">
+            Skip to content
+        </a>
+
+        <header id="siteHeader" class="header-shell fixed inset-x-0 top-0 z-50 border-b border-black/5 bg-[#e9f0ed]">
+            <div class="site-container">
+                <div class="flex h-[72px] items-center justify-between md:h-[76px]">
+                    <a href="#" class="brand-link focus-ring-dark flex items-center gap-3 text-kyokaText"
+                        aria-label="Kyoka home">
+                        <img src="images/kyoka.svg" alt="Kyoka logo" class="h-auto w-auto max-w-[112px] md:max-w-none">
+                    </a>
+
+                    <nav class="hidden items-center gap-10 lg:flex xl:gap-14" aria-label="Primary navigation">
+                        <a href="#new" class="nav-link focus-ring-dark font-primary text-[17px] text-kyokaText">New
+                            Arrival</a>
+                        <a href="#category"
+                            class="nav-link focus-ring-dark inline-flex items-center gap-2 font-primary text-[17px] text-kyokaText">
+                            <span>Shop by Category</span>
+                            <span class="text-[20px] leading-none">+</span>
+                        </a>
+                        <a href="#collection"
+                            class="nav-link focus-ring-dark inline-flex items-center gap-2 font-primary text-[17px] text-kyokaText">
+                            <span>Shop by Collections</span>
+                            <span class="text-[20px] leading-none">+</span>
+                        </a>
+                        <a href="#gift" class="nav-link focus-ring-dark font-primary text-[17px] text-kyokaText">Gift</a>
+                    </nav>
+
+                    <div class="hidden items-center gap-5 lg:flex">
+                        <button type="button" class="icon-animate focus-ring-dark text-kyokaText hover:opacity-70"
+                            aria-label="Search">
+                            <ion-icon name="search-outline" class="text-[24px]"></ion-icon>
+                        </button>
+                        <button type="button" class="icon-animate focus-ring-dark text-kyokaText hover:opacity-70"
+                            aria-label="Account">
+                            <ion-icon name="person-outline" class="text-[24px]"></ion-icon>
+                        </button>
+                        <button id="cartToggle" type="button" class="icon-animate focus-ring-dark relative text-kyokaText hover:opacity-70"
+                            aria-label="Open cart">
+                            <ion-icon name="bag-handle-outline" class="text-[24px]"></ion-icon>
+                            <span id="cartCount"
+                                class="absolute -right-[7px] -top-[7px] flex h-[18px] min-w-[18px] items-center justify-center rounded-full bg-black px-[4px] text-[10px] leading-none text-white">
+                                0
+                            </span>
+                        </button>
+                    </div>
+
+                    <div class="flex items-center gap-2 sm:gap-3 lg:hidden">
+                        <button type="button" class="icon-animate focus-ring-dark text-kyokaText hover:opacity-70"
+                            aria-label="Search">
+                            <ion-icon name="search-outline" class="text-[21px] sm:text-[22px]"></ion-icon>
+                        </button>
+
+                        <button id="menuToggle" type="button"
+                            class="focus-ring-dark relative h-10 w-10 rounded-full text-kyokaText"
+                            aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+                            <span class="relative mx-auto block h-5 w-5">
+                                <span class="toggle-line absolute left-0 top-0 block h-[1.5px] w-5 bg-current"></span>
+                                <span class="toggle-line absolute left-0 top-[9px] block h-[1.5px] w-5 bg-current"></span>
+                                <span class="toggle-line absolute left-0 top-[18px] block h-[1.5px] w-5 bg-current"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mobileMenu"
+                class="mobile-panel absolute left-0 right-0 top-full border-t border-black/5 bg-kyokaBg shadow-kyokaMenu lg:hidden"
+                aria-hidden="true">
+                <div class="site-container">
+                    <div class="py-5">
+                        <nav class="flex flex-col" aria-label="Mobile navigation">
+                            <a href="#new" class="border-b border-black/10 py-4 font-secondary text-[15px] text-kyokaText">New
+                                Arrival</a>
+                            <a href="#category"
+                                class="flex items-center justify-between border-b border-black/10 py-4 font-secondary text-[15px] text-kyokaText">
+                                <span>Shop by Category</span>
+                                <span class="text-[20px] leading-none">+</span>
+                            </a>
+                            <a href="#collection"
+                                class="flex items-center justify-between border-b border-black/10 py-4 font-secondary text-[15px] text-kyokaText">
+                                <span>Shop by Collections</span>
+                                <span class="text-[20px] leading-none">+</span>
+                            </a>
+                            <a href="#gift"
+                                class="border-b border-black/10 py-4 font-secondary text-[15px] text-kyokaText">Gift</a>
+                        </nav>
+
+                        <div class="flex items-center gap-5 pt-5">
+                            <button type="button" class="focus-ring-dark text-kyokaText hover:opacity-70"
+                                aria-label="Account">
+                                <ion-icon name="person-outline" class="text-[23px]"></ion-icon>
+                            </button>
+                            <button id="cartToggleMobile" type="button" class="focus-ring-dark relative text-kyokaText hover:opacity-70"
+                                aria-label="Open cart">
+                                <ion-icon name="bag-handle-outline" class="text-[23px]"></ion-icon>
+                                <span id="cartCountMobile"
+                                    class="absolute -right-[7px] -top-[7px] flex h-[18px] min-w-[18px] items-center justify-center rounded-full bg-black px-[4px] text-[10px] leading-none text-white">
+                                    0
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main id="main-content">
+            <!-- ================= Hero Section Start ================= -->
+            <section class="hero-section pb-[50px] sm:pb-[60px] lg:pb-[70px]" aria-label="Kyoka featured jewellery slider">
+                <div class="hero-slider" id="heroSlider">
+                    <article class="hero-slide active" aria-hidden="false">
+                        <div class="hero-media" style="background-image: url('images/hero-slide-1.png');" role="img"
+                            aria-label="Vintage rings displayed in a hand with warm cinematic sunlight"></div>
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-inner">
+                            <div class="site-container w-full">
+                                <div class="hero-content">
+                                    <h1 class="hero-title">
+                                        <span class="hero-title-line">UNIQUE</span>
+                                        <span class="hero-title-line italic font-normal">AND AUTHENTIC</span>
+                                        <span class="hero-title-line">VINTAGE <em
+                                                class="italic font-normal">DESIGNER</em></span>
+                                        <span class="hero-title-line">JEWELLERY</span>
+                                    </h1>
+
+                                    <p class="hero-kicker">Now available at the Kyoka</p>
+                                    <a href="#" class="hero-btn">Discover the collection</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="hero-slide" aria-hidden="true">
+                        <div class="hero-media" style="background-image: url('images/hero-slide-2.png');" role="img"
+                            aria-label="Luxury vintage jewellery collection in soft elegant light"></div>
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-inner">
+                            <div class="site-container w-full">
+                                <div class="hero-content">
+                                    <h2 class="hero-title">
+                                        <span class="hero-title-line">TIMELESS</span>
+                                        <span class="hero-title-line italic font-normal">CURATED PIECES</span>
+                                        <span class="hero-title-line">FOR MODERN</span>
+                                        <span class="hero-title-line">COLLECTORS</span>
+                                    </h2>
+
+                                    <p class="hero-kicker">Signature jewellery selected with elegance</p>
+                                    <a href="#" class="hero-btn">Shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="hero-slide" aria-hidden="true">
+                        <div class="hero-media" style="background-image: url('images/hero-slide-3.png');" role="img"
+                            aria-label="Elegant antique jewellery styling with refined editorial mood"></div>
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-inner">
+                            <div class="site-container w-full">
+                                <div class="hero-content">
+                                    <h2 class="hero-title">
+                                        <span class="hero-title-line">AUTHENTIC</span>
+                                        <span class="hero-title-line italic font-normal">VINTAGE STYLE</span>
+                                        <span class="hero-title-line">DESIGNED FOR</span>
+                                        <span class="hero-title-line">EVERY STORY</span>
+                                    </h2>
+
+                                    <p class="hero-kicker">Discover collectible pieces with lasting character</p>
+                                    <a href="#" class="hero-btn">View collection</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="hero-slide" aria-hidden="true">
+                        <div class="hero-media" style="background-image: url('images/hero-slide-4.png');" role="img"
+                            aria-label="Curated jewellery collection with warm artistic visual atmosphere"></div>
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-inner">
+                            <div class="site-container w-full">
+                                <div class="hero-content">
+                                    <h2 class="hero-title">
+                                        <span class="hero-title-line">CURATED</span>
+                                        <span class="hero-title-line italic font-normal">LUXURY PIECES</span>
+                                        <span class="hero-title-line">FOR MODERN</span>
+                                        <span class="hero-title-line">ELEGANCE</span>
+                                    </h2>
+
+                                    <p class="hero-kicker">Find timeless jewellery crafted to stand out</p>
+                                    <a href="#" class="hero-btn">Discover more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="hero-dots" aria-label="Slider pagination">
+                        <button type="button" class="hero-dot active focus-ring" aria-label="Go to slide 1"></button>
+                        <button type="button" class="hero-dot focus-ring" aria-label="Go to slide 2"></button>
+                        <button type="button" class="hero-dot focus-ring" aria-label="Go to slide 3"></button>
+                        <button type="button" class="hero-dot focus-ring" aria-label="Go to slide 4"></button>
+                    </div>
+
+                    <div class="scroll-mouse" aria-hidden="true">
+                        <span class="scroll-mouse-label">Scroll</span>
+                        <span class="scroll-mouse-icon"></span>
+                    </div>
+
+                    <div class="hero-progress" aria-hidden="true">
+                        <div class="hero-progress-bar animate" id="heroProgressBar"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- =================Hero Section End ================= -->
+
+
+
+            <!-- ================= Discover Section Start ================= -->
+            <section class="discover-section  bg-[#f1f1f1] py-[50px] sm:py-[60px] lg:py-[70px] overflow-hidden" id="category">
+                <div class="w-[94%] max-w-[1280px] mx-auto">
+                    <div class="text-center">
+                        <p class="font-secondary text-[13px] sm:text-[14px] uppercase tracking-[0.04em] text-[#1f1c19]">
+                            Our Everyday Pieces
+                        </p>
+                        <h2
+                            class="mt-3 sm:mt-4 font-primary text-[#171311] text-[42px] leading-[0.95] tracking-[-0.04em] sm:text-[58px] md:text-[68px] lg:text-[74px]">
+                            Discover Kyoka
+                        </h2>
+                    </div>
+            
+                    <div class="relative mt-[42px] sm:mt-[54px] lg:mt-[64px]">
+                        <div id="discoverSlider"
+                            class="discover-slider flex gap-[18px] sm:gap-[20px] lg:gap-[22px] overflow-x-auto scroll-smooth select-none cursor-grab active:cursor-grabbing scrollbar-hide"
+                            aria-label="Discover Kyoka categories slider">
+                            <article
+                                class="discover-card shrink-0 w-[82vw] sm:w-[46vw] lg:w-[calc((100%-44px)/3)] max-w-[420px] lg:max-w-none">
+                                <div class="group block">
+                                    <div class="overflow-hidden bg-[#ddd6cf] aspect-[0.86/1]">
+                                        <img src="images/discover-necklaces.png" alt="Fine necklaces collection"
+                                            class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.04]"
+                                            draggable="false" />
+                                    </div>
+                                    <div class="flex items-end gap-3 pt-5 sm:pt-6">
+                                        <h3
+                                            class="font-secondary text-[#181512] text-[18px] leading-none uppercase tracking-[0.01em] sm:text-[19px]">
+                                            Fine Necklaces
+                                            <span class="text-[15px] align-baseline normal-case">(258)</span>
+                                        </h3>
+                                        <span
+                                            class="inline-flex translate-y-[-1px] text-[#181512] transition duration-300 group-hover:translate-x-1 group-hover:translate-y-[-3px]">
+                                            <ion-icon name="arrow-up-outline" class="text-[23px] rotate-45"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+            
+                            <article
+                                class="discover-card shrink-0 w-[82vw] sm:w-[46vw] lg:w-[calc((100%-44px)/3)] max-w-[420px] lg:max-w-none">
+                                <div class="group block">
+                                    <div class="overflow-hidden bg-[#e7dfd7] aspect-[0.86/1]">
+                                        <img src="images/discover-rings.png" alt="Fine rings collection"
+                                            class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.04]"
+                                            draggable="false" />
+                                    </div>
+                                    <div class="flex items-end gap-3 pt-5 sm:pt-6">
+                                        <h3
+                                            class="font-secondary text-[#181512] text-[18px] leading-none uppercase tracking-[0.01em] sm:text-[19px]">
+                                            Fine Rings
+                                            <span class="text-[15px] align-baseline normal-case">(320)</span>
+                                        </h3>
+                                        <span
+                                            class="inline-flex translate-y-[-1px] text-[#181512] transition duration-300 group-hover:translate-x-1 group-hover:translate-y-[-3px]">
+                                            <ion-icon name="arrow-up-outline" class="text-[23px] rotate-45"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+            
+                            <article
+                                class="discover-card shrink-0 w-[82vw] sm:w-[46vw] lg:w-[calc((100%-44px)/3)] max-w-[420px] lg:max-w-none">
+                                <div class="group block">
+                                    <div class="overflow-hidden bg-[#d7c8bc] aspect-[0.86/1]">
+                                        <img src="images/discover-bracelets.png" alt="Fine bracelets collection"
+                                            class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.04]"
+                                            draggable="false" />
+                                    </div>
+                                    <div class="flex items-end gap-3 pt-5 sm:pt-6">
+                                        <h3
+                                            class="font-secondary text-[#181512] text-[18px] leading-none uppercase tracking-[0.01em] sm:text-[19px]">
+                                            Fine Braceletes
+                                            <span class="text-[15px] align-baseline normal-case">(410)</span>
+                                        </h3>
+                                        <span
+                                            class="inline-flex translate-y-[-1px] text-[#181512] transition duration-300 group-hover:translate-x-1 group-hover:translate-y-[-3px]">
+                                            <ion-icon name="arrow-up-outline" class="text-[23px] rotate-45"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+            
+                            <article
+                                class="discover-card shrink-0 w-[82vw] sm:w-[46vw] lg:w-[calc((100%-44px)/3)] max-w-[420px] lg:max-w-none">
+                                <div class="group block">
+                                    <div class="overflow-hidden bg-[#d8b79d] aspect-[0.86/1]">
+                                        <img src="images/discover-earrings.png" alt="Fine earrings collection"
+                                            class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-[1.04]"
+                                            draggable="false" />
+                                    </div>
+                                    <div class="flex items-end gap-3 pt-5 sm:pt-6">
+                                        <h3
+                                            class="font-secondary text-[#181512] text-[18px] leading-none uppercase tracking-[0.01em] sm:text-[19px]">
+                                            Fine Earrings
+                                            <span class="text-[15px] align-baseline normal-case">(186)</span>
+                                        </h3>
+                                        <span
+                                            class="inline-flex translate-y-[-1px] text-[#181512] transition duration-300 group-hover:translate-x-1 group-hover:translate-y-[-3px]">
+                                            <ion-icon name="arrow-up-outline" class="text-[23px] rotate-45"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+            
+                        <div id="dragCursor"
+                            class="pointer-events-none absolute left-0 top-0 z-20 hidden h-[100px] w-[100px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-white/90 text-[20px] uppercase tracking-[0.06em] text-white opacity-0 backdrop-blur-[1px] transition-opacity duration-300 lg:flex">
+                            <span class="font-secondary text-[20px]">Drag</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ================= Discover Section End ================= -->
+
+
+
+            <!-- ================= Trending Jewellery Section Start ================= -->
+            <section class="trending-section bg-[#f1f1f1] py-[50px] sm:py-[60px] lg:py-[70px]  overflow-hidden" id="collection">
+                <div class="site-container">
+                    <div class="text-center">
+                        <p class="font-secondary text-[13px] sm:text-[14px] uppercase tracking-[0.04em] text-[#1c1917]">
+                            Discover All Trends
+                        </p>
+                        <h2
+                            class="mt-3 sm:mt-4 font-primary text-[#171311] text-[42px] leading-[0.95] tracking-[-0.045em] sm:text-[58px] md:text-[70px] lg:text-[74px]">
+                            Trending Jewellery
+                        </h2>
+                    </div>
+                </div>
+            
+                <div class="trending-slider-outer">
+                    <div class="trending-slider-wrap mt-[42px] sm:mt-[54px] lg:mt-[62px]">
+                        <div id="trendingSlider" class="trending-slider">
+            
+                            <!-- Product 1 -->
+                            <article class="trend-card shrink-0 w-[84vw] sm:w-[46vw] lg:w-[380px] xl:w-[390px]" data-product-id="1"
+                                data-name="Snake Chain Necklace 50cm/20”" data-gold-price="3054" data-silver-price="2680"
+                                data-image="images/trending-necklace-1.png">
+                                <div class="trend-card-inner">
+                                    <div class="relative overflow-hidden bg-[#d8cab8] aspect-[0.84/1]">
+                                        <img src="images/trending-necklace-1.png" alt="Snake Chain Necklace 50cm 20 inches"
+                                            class="trend-image h-full w-full object-cover" draggable="false" />
+            
+                                        <button type="button" class="add-cart-btn" aria-label="Add Snake Chain Necklace to cart">
+                                            <span class="plus-h"></span>
+                                            <span class="plus-v"></span>
+                                        </button>
+                                    </div>
+            
+                                    <div class="pt-5">
+                                        <div class="flex items-end justify-between gap-4">
+                                            <h3 class="trend-title">
+                                                Snake Chain Necklace 50cm/20’
+                                            </h3>
+            
+                                            <a href="#" class="trend-link" aria-label="View Snake Chain Necklace 50cm/20 inches">
+                                                <ion-icon name="arrow-up-outline" class="text-[24px] rotate-45"></ion-icon>
+                                            </a>
+                                        </div>
+            
+                                        <div class="mt-4 flex items-center gap-3">
+                                            <button type="button" class="metal-btn active" data-metal="gold"
+                                                aria-label="Choose gold">
+                                                <img src="images/icon-gold.svg" alt="Gold option" class="h-[38px] w-[38px]" />
+                                            </button>
+            
+                                            <button type="button" class="metal-btn" data-metal="silver" aria-label="Choose silver">
+                                                <img src="images/icon-silver.svg" alt="Silver option" class="h-[38px] w-[38px]" />
+                                            </button>
+            
+                                            <span class="metal-label">18ct Gold Vermeil</span>
+                                        </div>
+            
+                                        <p class="trend-price mt-4">$3054</p>
+                                    </div>
+                                </div>
+                            </article>
+            
+                            <!-- Product 2 -->
+                            <article class="trend-card shrink-0 w-[84vw] sm:w-[46vw] lg:w-[380px] xl:w-[390px]" data-product-id="2"
+                                data-name="Alta Capture Charm Bracelet" data-gold-price="1080" data-silver-price="920"
+                                data-image="images/trending-bracelet-1.png">
+                                <div class="trend-card-inner">
+                                    <div class="relative overflow-hidden bg-[#e1d3bf] aspect-[0.84/1]">
+                                        <img src="images/trending-bracelet-1.png" alt="Alta Capture Charm Bracelet"
+                                            class="trend-image h-full w-full object-cover" draggable="false" />
+            
+                                        <button type="button" class="add-cart-btn"
+                                            aria-label="Add Alta Capture Charm Bracelet to cart">
+                                            <span class="plus-h"></span>
+                                            <span class="plus-v"></span>
+                                        </button>
+                                    </div>
+            
+                                    <div class="pt-5">
+                                        <div class="flex items-end justify-between gap-4">
+                                            <h3 class="trend-title">
+                                                Alta Capture Charm Bracelet
+                                            </h3>
+            
+                                            <a href="#" class="trend-link" aria-label="View Alta Capture Charm Bracelet">
+                                                <ion-icon name="arrow-up-outline" class="text-[24px] rotate-45"></ion-icon>
+                                            </a>
+                                        </div>
+            
+                                        <div class="mt-4 flex items-center gap-3">
+                                            <button type="button" class="metal-btn active" data-metal="gold"
+                                                aria-label="Choose gold">
+                                                <img src="images/icon-gold.svg" alt="Gold option" class="h-[38px] w-[38px]" />
+                                            </button>
+            
+                                            <button type="button" class="metal-btn" data-metal="silver" aria-label="Choose silver">
+                                                <img src="images/icon-silver.svg" alt="Silver option" class="h-[38px] w-[38px]" />
+                                            </button>
+            
+                                            <span class="metal-label">18ct Gold Vermeil</span>
+                                        </div>
+            
+                                        <p class="trend-price mt-4">$1080</p>
+                                    </div>
+                                </div>
+                            </article>
+            
+                            <!-- Product 3 -->
+                            <article class="trend-card shrink-0 w-[84vw] sm:w-[46vw] lg:w-[380px] xl:w-[390px]" data-product-id="3"
+                                data-name="Corda Diamond Locket Curb Chain Necklace" data-gold-price="2089" data-silver-price="1825"
+                                data-image="images/trending-necklace-2.png">
+                                <div class="trend-card-inner">
+                                    <div class="relative overflow-hidden bg-[#dfc0aa] aspect-[0.84/1]">
+                                        <img src="images/trending-necklace-2.png" alt="Corda Diamond Locket Curb Chain Necklace"
+                                            class="trend-image h-full w-full object-cover" draggable="false" />
+            
+                                        <button type="button" class="add-cart-btn"
+                                            aria-label="Add Corda Diamond Locket Curb Chain Necklace to cart">
+                                            <span class="plus-h"></span>
+                                            <span class="plus-v"></span>
+                                        </button>
+                                    </div>
+            
+                                    <div class="pt-5">
+                                        <div class="flex items-end justify-between gap-4">
+                                            <h3 class="trend-title">
+                                                Corda Diamond Locket Curb Chain Necklace
+                                            </h3>
+            
+                                            <a href="#" class="trend-link"
+                                                aria-label="View Corda Diamond Locket Curb Chain Necklace">
+                                                <ion-icon name="arrow-up-outline" class="text-[24px] rotate-45"></ion-icon>
+                                            </a>
+                                        </div>
+            
+                                        <div class="mt-4 flex items-center gap-3">
+                                            <button type="button" class="metal-btn active" data-metal="gold"
+                                                aria-label="Choose gold">
+                                                <img src="images/icon-gold.svg" alt="Gold option" class="h-[38px] w-[38px]" />
+                                            </button>
+            
+                                            <button type="button" class="metal-btn" data-metal="silver" aria-label="Choose silver">
+                                                <img src="images/icon-silver.svg" alt="Silver option" class="h-[38px] w-[38px]" />
+                                            </button>
+            
+                                            <span class="metal-label">18ct Gold Vermeil</span>
+                                        </div>
+            
+                                        <p class="trend-price mt-4">$2089</p>
+                                    </div>
+                                </div>
+                            </article>
+            
+                            <!-- Product 4 -->
+                            <article class="trend-card shrink-0 w-[84vw] sm:w-[46vw] lg:w-[380px] xl:w-[390px]" data-product-id="4"
+                                data-name="Curb Pearl Statement Necklace" data-gold-price="1740" data-silver-price="1490"
+                                data-image="images/trending-necklace-3.png">
+                                <div class="trend-card-inner">
+                                    <div class="relative overflow-hidden bg-[#c9ced7] aspect-[0.84/1]">
+                                        <img src="images/trending-necklace-3.png" alt="Curb Pearl Statement Necklace"
+                                            class="trend-image h-full w-full object-cover" draggable="false" />
+            
+                                        <button type="button" class="add-cart-btn"
+                                            aria-label="Add Curb Pearl Statement Necklace to cart">
+                                            <span class="plus-h"></span>
+                                            <span class="plus-v"></span>
+                                        </button>
+                                    </div>
+            
+                                    <div class="pt-5">
+                                        <div class="flex items-end justify-between gap-4">
+                                            <h3 class="trend-title">
+                                                Curb Pearl Statement Necklace
+                                            </h3>
+            
+                                            <a href="#" class="trend-link" aria-label="View Curb Pearl Statement Necklace">
+                                                <ion-icon name="arrow-up-outline" class="text-[24px] rotate-45"></ion-icon>
+                                            </a>
+                                        </div>
+            
+                                        <div class="mt-4 flex items-center gap-3">
+                                            <button type="button" class="metal-btn active" data-metal="gold"
+                                                aria-label="Choose gold">
+                                                <img src="images/icon-gold.svg" alt="Gold option" class="h-[38px] w-[38px]" />
+                                            </button>
+            
+                                            <button type="button" class="metal-btn" data-metal="silver" aria-label="Choose silver">
+                                                <img src="images/icon-silver.svg" alt="Silver option" class="h-[38px] w-[38px]" />
+                                            </button>
+            
+                                            <span class="metal-label">18ct Gold Vermeil</span>
+                                        </div>
+            
+                                        <p class="trend-price mt-4">$1740</p>
+                                    </div>
+                                </div>
+                            </article>
+            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Left Cart Drawer -->
+            <aside id="cartDrawer" class="cart-drawer" aria-hidden="true">
+                <div class="cart-drawer-panel">
+                    <div class="flex items-center justify-between border-b border-black/10 px-5 py-4 sm:px-6">
+                        <div>
+                            <p class="font-secondary text-[12px] uppercase tracking-[0.08em] text-[#5b5651]">Shopping Cart</p>
+                            <h3 class="mt-1 font-primary text-[32px] leading-none tracking-[-0.03em] text-[#171311]">Your Bag
+                            </h3>
+                        </div>
+            
+                        <button id="cartClose" type="button" class="cart-close-btn" aria-label="Close cart">
+                            <ion-icon name="close-outline" class="text-[24px]"></ion-icon>
+                        </button>
+                    </div>
+            
+                    <div id="cartItems" class="cart-items"></div>
+            
+                    <div class="border-t border-black/10 px-5 py-5 sm:px-6">
+                        <div class="flex items-center justify-between">
+                            <span class="font-secondary text-[14px] uppercase tracking-[0.04em] text-[#3d3833]">Subtotal</span>
+                            <span id="cartSubtotal" class="font-secondary text-[24px] text-[#171311]">$0</span>
+                        </div>
+            
+                        <button type="button"
+                            class="mt-5 flex min-h-[54px] w-full items-center justify-center bg-[#171311] px-5 font-secondary text-[14px] uppercase tracking-[0.05em] text-white transition duration-300 hover:opacity-90">
+                            Checkout
+                        </button>
+                    </div>
+                </div>
+            </aside>
+            <div id="cartBackdrop" class="cart-backdrop" aria-hidden="true"></div>
+            <!-- ================= Trending Jewellery Section End ================= -->
+            
+
+
+            <!-- ================= Kyoka Year Section Start ================= -->
+            <section class="w-full bg-[#f1f1f1] py-[50px] sm:py-[60px] lg:py-[70px] overflow-hidden">
+            
+                <div class="marquee">
+                    <div class="marquee-track" id="brandTrack">
+            
+                        <div class="brand-group">
+                            <span class="brand-dark">KYOKA</span>
+            
+                            <img src="images/ring.png" alt="Kyoka ring" class="brand-ring">
+            
+                            <span class="brand-light">SINCE 1982 /</span>
+                        </div>
+            
+                    </div>
+                </div>
+            </section>
+            <!-- ================= Kyoka Year Section End ================= -->
+
+
+
+            <!-- ================= Premium Collection Section Start ================= -->
+            <section class="bg-[#f1f1f1] py-[40px] sm:py-[50px] lg:py-[60px]" id="gift">
+                <div class="site-container">
+            
+                    <div class="relative overflow-hidden">
+            
+                        <img src="images/premium-ring.jpg" alt="Kyoka Premium Ring Collection"
+                            class="w-full h-[420px] sm:h-[500px] lg:h-[560px] object-cover">
+            
+                        <div class="absolute inset-0 bg-gradient-to-r from-black/50 via-black/20 to-transparent"></div>
+            
+                        <div class="absolute bottom-[40px] left-[30px] sm:left-[50px] lg:left-[70px] max-w-[600px] text-white">
+            
+                            <h2 class="font-primary leading-[1.25] text-[28px] sm:text-[34px] lg:text-[40px] tracking-[0.04em] uppercase">
+            
+                                FIND OUR PREMIUM RANGE
+                                <br>
+                                UNIQUE COLLECTION
+                            </h2>
+            
+                            <p class="mt-4 text-[12px] sm:text-[13px] tracking-[0.08em] uppercase opacity-80">
+                                NOW AVAILABLE AT THE KYOKA
+                            </p>
+            
+                            <a href="#" class="inline-block mt-6 border border-white px-6 py-3 text-[12px] tracking-[0.08em] uppercase hover:bg-white hover:text-black transition duration-300">
+                                DISCOVER THE COLLECTION
+                            </a>
+            
+                        </div>
+            
+                    </div>
+            
+                </div>
+            </section>
+            <!-- ================= Premium Collection Section End ================= -->
+
+
+
+            <!-- ================= Kyoka On IG Section Start ================= -->
+            <section class="bg-[#f1f1f1] py-[50px] sm:py-[60px] lg:py-[70px] overflow-hidden" id="new">
+                <div class="kyoka-ig-shell">
+                    <div class="kyoka-ig-layout">
+            
+                        <!-- Left Intro -->
+                        <div class="kyoka-ig-left">
+                            <p class="kyoka-ig-subtitle">
+                                WOLD FOLLOWING US
+                            </p>
+            
+                            <h2 class="kyoka-ig-title">
+                                Kyoka <span>ON IG</span>
+                            </h2>
+            
+                            <div class="kyoka-star-wrap">
+                                <img src="images/kyoka-icon.svg" alt="">
+                            </div>
+                        </div>
+            
+                        <!-- Right Gallery -->
+                        <div class="kyoka-ig-right">
+                            <div id="kyokaIgTrack" class="kyoka-ig-track">
+            
+                                <!-- Card 1 -->
+                                <a href="#" class="kyoka-card kyoka-card-default-icon group">
+                                    <img src="images/ig-1.png" alt="Kyoka Instagram jewellery model" class="kyoka-card-img">
+                                    <div class="kyoka-card-overlay"></div>
+            
+                                    <div class="kyoka-instagram-badge">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-[22px] h-[22px] text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                                            <circle cx="12" cy="12" r="4"></circle>
+                                            <circle cx="17.5" cy="6.5" r="1"></circle>
+                                        </svg>
+                                    </div>
+                                </a>
+            
+                                <!-- Card 2 -->
+                                <a href="#" class="kyoka-card group">
+                                    <img src="images/ig-2.png" alt="Kyoka gold ear jewellery closeup" class="kyoka-card-img">
+                                    <div class="kyoka-card-overlay"></div>
+            
+                                    <div class="kyoka-instagram-badge">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-[22px] h-[22px] text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                                            <circle cx="12" cy="12" r="4"></circle>
+                                            <circle cx="17.5" cy="6.5" r="1"></circle>
+                                        </svg>
+                                    </div>
+                                </a>
+            
+                                <!-- Card 3 -->
+                                <a href="#" class="kyoka-card group">
+                                    <img src="images/ig-3.png" alt="Kyoka premium earring collection" class="kyoka-card-img">
+                                    <div class="kyoka-card-overlay"></div>
+            
+                                    <div class="kyoka-instagram-badge">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-[22px] h-[22px] text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                                            <circle cx="12" cy="12" r="4"></circle>
+                                            <circle cx="17.5" cy="6.5" r="1"></circle>
+                                        </svg>
+                                    </div>
+            
+                                    <div class="kyoka-drag-badge">
+                                        DRAG
+                                    </div>
+                                </a>
+            
+                                <!-- Card 4 -->
+                                <a href="#" class="kyoka-card group">
+                                    <img src="images/ig-4.png" alt="Kyoka necklace jewellery closeup" class="kyoka-card-img">
+                                    <div class="kyoka-card-overlay"></div>
+            
+                                    <div class="kyoka-instagram-badge">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-[22px] h-[22px] text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                                            <circle cx="12" cy="12" r="4"></circle>
+                                            <circle cx="17.5" cy="6.5" r="1"></circle>
+                                        </svg>
+                                    </div>
+                                </a>
+            
+                                <!-- Card 5 -->
+                                <a href="#" class="kyoka-card group">
+                                    <img src="images/ig-5.png" alt="Kyoka fine jewellery necklace detail" class="kyoka-card-img">
+                                    <div class="kyoka-card-overlay"></div>
+            
+                                    <div class="kyoka-instagram-badge">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-[22px] h-[22px] text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                                            <circle cx="12" cy="12" r="4"></circle>
+                                            <circle cx="17.5" cy="6.5" r="1"></circle>
+                                        </svg>
+                                    </div>
+                                </a>
+                                
+                                <!-- Card 6 -->
+                                <a href="#" class="kyoka-card group">
+                                    <img src="images/ig-6.png" alt="Kyoka fine jewellery necklace detail" class="kyoka-card-img">
+                                    <div class="kyoka-card-overlay"></div>
+                                
+                                    <div class="kyoka-instagram-badge">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-[22px] h-[22px] text-white" fill="none" viewBox="0 0 24 24"
+                                            stroke="currentColor" stroke-width="2">
+                                            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                                            <circle cx="12" cy="12" r="4"></circle>
+                                            <circle cx="17.5" cy="6.5" r="1"></circle>
+                                        </svg>
+                                    </div>
+                                </a>
+                                
+                                <!-- Card 7 -->
+                                <a href="#" class="kyoka-card group">
+                                    <img src="images/ig-7.png" alt="Kyoka fine jewellery necklace detail" class="kyoka-card-img">
+                                    <div class="kyoka-card-overlay"></div>
+                                
+                                    <div class="kyoka-instagram-badge">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-[22px] h-[22px] text-white" fill="none" viewBox="0 0 24 24"
+                                            stroke="currentColor" stroke-width="2">
+                                            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                                            <circle cx="12" cy="12" r="4"></circle>
+                                            <circle cx="17.5" cy="6.5" r="1"></circle>
+                                        </svg>
+                                    </div>
+                                </a>
+                                
+                                <!-- Card 8 -->
+                                <a href="#" class="kyoka-card group">
+                                    <img src="images/ig-8.png" alt="Kyoka fine jewellery necklace detail" class="kyoka-card-img">
+                                    <div class="kyoka-card-overlay"></div>
+                                
+                                    <div class="kyoka-instagram-badge">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-[22px] h-[22px] text-white" fill="none" viewBox="0 0 24 24"
+                                            stroke="currentColor" stroke-width="2">
+                                            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                                            <circle cx="12" cy="12" r="4"></circle>
+                                            <circle cx="17.5" cy="6.5" r="1"></circle>
+                                        </svg>
+                                    </div>
+                                </a>
+            
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </section>
+            <!-- ================= Kyoka On IG Section End ================= -->
+        </main>
+
+
+
+        <!-- ===================== Kyoka Footer Start ===================== -->
+        <footer class="bg-[#f1f1f1] pt-[42px] sm:pt-[52px] lg:pt-[60px] pb-[46px] sm:pb-[56px] lg:pb-[72px] overflow-hidden">
+            <div class="w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+        
+                <!-- Top Brand Area -->
+                <div class="flex flex-col items-center text-center">
+                    <!-- Logo -->
+                    <a href="#" class="inline-flex items-center justify-center gap-[10px]">
+                        <img src="images/kyoka.svg" alt="Kyoka logo"
+                            class="h-[34px] sm:h-[38px] lg:h-[44px] w-auto object-contain">
+                    </a>
+        
+                    <!-- Follow text -->
+                    <p
+                        class="mt-[34px] sm:mt-[40px] lg:mt-[52px] font-primary italic uppercase tracking-[0.12em] text-[14px] sm:text-[15px] text-[#575757]">
+                        Follow us on
+                    </p>
+        
+                    <!-- Social Icons -->
+                    <div class="mt-[18px] sm:mt-[20px] lg:mt-[22px] flex items-center justify-center gap-[12px] sm:gap-[14px]">
+                        <a href="#" aria-label="Instagram"
+                            class="w-[44px] h-[44px] sm:w-[46px] sm:h-[46px] rounded-full border border-[#a9aaa6] flex items-center justify-center transition duration-300 hover:bg-white/60">
+                            <img src="images/icon-instagram.svg" alt="Instagram" class="w-[21px] h-[21px] object-contain">
+                        </a>
+        
+                        <a href="#" aria-label="Facebook"
+                            class="w-[44px] h-[44px] sm:w-[46px] sm:h-[46px] rounded-full border border-[#a9aaa6] flex items-center justify-center transition duration-300 hover:bg-white/60">
+                            <img src="images/icon-facebook.svg" alt="Facebook" class="w-[19px] h-[19px] object-contain">
+                        </a>
+        
+                        <a href="#" aria-label="Twitter"
+                            class="w-[44px] h-[44px] sm:w-[46px] sm:h-[46px] rounded-full border border-[#a9aaa6] flex items-center justify-center transition duration-300 hover:bg-white/60">
+                            <img src="images/icon-twitter.svg" alt="Twitter" class="w-[21px] h-[21px] object-contain">
+                        </a>
+        
+                        <a href="#" aria-label="YouTube"
+                            class="w-[44px] h-[44px] sm:w-[46px] sm:h-[46px] rounded-full border border-[#a9aaa6] flex items-center justify-center transition duration-300 hover:bg-white/60">
+                            <img src="images/icon-youtube.svg" alt="YouTube" class="w-[22px] h-[22px] object-contain">
+                        </a>
+        
+                        <a href="#" aria-label="Twitch"
+                            class="w-[44px] h-[44px] sm:w-[46px] sm:h-[46px] rounded-full border border-[#a9aaa6] flex items-center justify-center transition duration-300 hover:bg-white/60">
+                            <img src="images/icon-twitch.svg" alt="Twitch" class="w-[20px] h-[20px] object-contain">
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Footer Links -->
+                <div
+                    class="mt-[52px] sm:mt-[62px] lg:mt-[86px] grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-[24px] gap-y-[60px] sm:gap-y-[52px] lg:gap-x-[34px]">
+        
+                    <!-- Column 1 -->
+                    <div>
+                        <h3
+                            class="font-primary uppercase tracking-[0.06em] text-[22px] sm:text-[24px] lg:text-[18px] text-[#171717]">
+                            Shop
+                        </h3>
+        
+                        <ul class="mt-[16px] sm:mt-[18px] lg:mt-[20px] space-y-[10px] sm:space-y-[11px]">
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">New
+                                    arrival</a></li>
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">Shop
+                                    by category</a></li>
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">Shop
+                                    by collection</a></li>
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">Gift</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <!-- Column 2 -->
+                    <div>
+                        <h3
+                            class="font-primary uppercase tracking-[0.06em] text-[22px] sm:text-[24px] lg:text-[18px] text-[#171717]">
+                            Who we are
+                        </h3>
+        
+                        <ul class="mt-[16px] sm:mt-[18px] lg:mt-[20px] space-y-[10px] sm:space-y-[11px]">
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">About
+                                    our brand</a></li>
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">News</a>
+                            </li>
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">Corporate
+                                    information</a></li>
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">Contact
+                                    us</a></li>
+                        </ul>
+                    </div>
+        
+                    <!-- Column 3 -->
+                    <div>
+                        <h3
+                            class="font-primary uppercase tracking-[0.06em] text-[22px] sm:text-[24px] lg:text-[18px] text-[#171717]">
+                            Customer service
+                        </h3>
+        
+                        <ul class="mt-[16px] sm:mt-[18px] lg:mt-[20px] space-y-[10px] sm:space-y-[11px]">
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">Appointment</a>
+                            </li>
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">Shipping</a>
+                            </li>
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">Exchange
+                                    &amp; Return</a></li>
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">Size
+                                    guide</a></li>
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">Store
+                                    locator</a></li>
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">Faq</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <!-- Column 4 -->
+                    <div>
+                        <h3
+                            class="font-primary uppercase tracking-[0.06em] text-[22px] sm:text-[24px] lg:text-[18px] text-[#171717]">
+                            Product care
+                        </h3>
+        
+                        <ul class="mt-[16px] sm:mt-[18px] lg:mt-[20px] space-y-[10px] sm:space-y-[11px]">
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">Maintenance</a>
+                            </li>
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">Jewellery
+                                    care</a></li>
+                        </ul>
+                    </div>
+        
+                    <!-- Column 5 -->
+                    <div>
+                        <h3
+                            class="font-primary uppercase tracking-[0.06em] text-[22px] sm:text-[24px] lg:text-[18px] text-[#171717]">
+                            Other
+                        </h3>
+        
+                        <ul class="mt-[16px] sm:mt-[18px] lg:mt-[20px] space-y-[10px] sm:space-y-[11px]">
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">Term
+                                    &amp; Condition</a></li>
+                            <li><a href="#"
+                                    class="text-[15px] sm:text-[16px] lg:text-[16px] text-[#666666] hover:text-[#111111] transition">Privacy
+                                    policy</a></li>
+                        </ul>
+                    </div>
+        
+                </div>
+            </div>
+        </footer>
+        <!-- ===================== Kyoka Footer End ===================== -->
+
+
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script>
+            const siteHeader = document.getElementById("siteHeader");
+            const menuToggle = document.getElementById("menuToggle");
+            const mobileMenu = document.getElementById("mobileMenu");
+            const slides = document.querySelectorAll(".hero-slide");
+            const dots = document.querySelectorAll(".hero-dot");
+            const progressBar = document.getElementById("heroProgressBar");
+            const heroSlider = document.getElementById("heroSlider");
+            const mouseGlow = document.getElementById("mouseGlow");
+
+            let currentSlide = 0;
+            let sliderTimer = null;
+            let glowX = window.innerWidth / 2;
+            let glowY = window.innerHeight / 2;
+            let targetX = glowX;
+            let targetY = glowY;
+
+            function handleHeaderScroll() {
+                if (window.scrollY > 10) {
+                    siteHeader.classList.add("scrolled");
+                } else {
+                    siteHeader.classList.remove("scrolled");
+                }
+            }
+
+            function openMenu() {
+                menuToggle.classList.add("menu-open");
+                mobileMenu.classList.add("active");
+                menuToggle.setAttribute("aria-expanded", "true");
+                mobileMenu.setAttribute("aria-hidden", "false");
+                document.body.classList.add("overflow-hidden");
+            }
+
+            function closeMenu() {
+                menuToggle.classList.remove("menu-open");
+                mobileMenu.classList.remove("active");
+                menuToggle.setAttribute("aria-expanded", "false");
+                mobileMenu.setAttribute("aria-hidden", "true");
+                document.body.classList.remove("overflow-hidden");
+            }
+
+            menuToggle.addEventListener("click", function () {
+                const expanded = menuToggle.getAttribute("aria-expanded") === "true";
+                expanded ? closeMenu() : openMenu();
+            });
+
+            document.addEventListener("keydown", function (event) {
+                if (event.key === "Escape") {
+                    closeMenu();
+                }
+            });
+
+            window.addEventListener("resize", function () {
+                if (window.innerWidth >= 1024) {
+                    closeMenu();
+                }
+            });
+
+            window.addEventListener("scroll", handleHeaderScroll);
+            handleHeaderScroll();
+
+            function restartProgress() {
+                progressBar.classList.remove("animate");
+                void progressBar.offsetWidth;
+                progressBar.classList.add("animate");
+            }
+
+            function showSlide(index) {
+                slides.forEach(function (slide, i) {
+                    const active = i === index;
+                    slide.classList.toggle("active", active);
+                    slide.setAttribute("aria-hidden", active ? "false" : "true");
+                });
+
+                dots.forEach(function (dot, i) {
+                    dot.classList.toggle("active", i === index);
+                });
+
+                currentSlide = index;
+                restartProgress();
+            }
+
+            function nextSlide() {
+                const nextIndex = (currentSlide + 1) % slides.length;
+                showSlide(nextIndex);
+            }
+
+            function startSlider() {
+                sliderTimer = setInterval(nextSlide, 5000);
+            }
+
+            function resetSlider() {
+                clearInterval(sliderTimer);
+                startSlider();
+            }
+
+            dots.forEach(function (dot, index) {
+                dot.addEventListener("click", function () {
+                    showSlide(index);
+                    resetSlider();
+                });
+            });
+
+            heroSlider.addEventListener("mouseenter", function () {
+                if (window.innerWidth > 1023) {
+                    mouseGlow.classList.add("active");
+                }
+            });
+
+            heroSlider.addEventListener("mouseleave", function () {
+                mouseGlow.classList.remove("active");
+            });
+
+            window.addEventListener("mousemove", function (event) {
+                targetX = event.clientX;
+                targetY = event.clientY;
+            });
+
+            function animateGlow() {
+                glowX += (targetX - glowX) * 0.08;
+                glowY += (targetY - glowY) * 0.08;
+                mouseGlow.style.transform = "translate3d(" + (glowX - 260) + "px," + (glowY - 260) + "px,0)";
+                requestAnimationFrame(animateGlow);
+            }
+
+            showSlide(0);
+            startSlider();
+            animateGlow();
+        </script>
+        <script>
+            const discoverSlider=document.getElementById("discoverSlider");
+                const dragCursor=document.getElementById("dragCursor");
+            
+                if (discoverSlider) {
+                    let isDown=false;
+                    let startX=0;
+                    let scrollLeft=0;
+                    let currentX=0;
+            
+                    function setCursorPosition(x, y) {
+                        if (window.innerWidth < 1024 || !dragCursor) return;
+                        dragCursor.style.left=x+"px";
+                        dragCursor.style.top=y+"px";
+                    }
+            
+                    function showCursor() {
+                        if (window.innerWidth < 1024 || !dragCursor) return;
+                        dragCursor.classList.remove("hidden");
+                        dragCursor.classList.add("opacity-100");
+                    }
+            
+                    function hideCursor() {
+                        if ( !dragCursor) return;
+                        dragCursor.classList.remove("opacity-100");
+                    }
+            
+                    discoverSlider.addEventListener("mouseenter", function () {
+                            showCursor();
+                        });
+            
+                    discoverSlider.addEventListener("mouseleave", function () {
+                            hideCursor();
+                            isDown=false;
+                            discoverSlider.classList.remove("dragging");
+                        });
+            
+                    discoverSlider.addEventListener("mousemove", function (e) {
+                            currentX=e.clientX;
+                            setCursorPosition(e.clientX - discoverSlider.getBoundingClientRect().left,
+                                e.clientY - discoverSlider.getBoundingClientRect().top);
+            
+                            if ( !isDown) return;
+            
+                            e.preventDefault();
+                            const x=e.pageX - discoverSlider.offsetLeft;
+                            const walk=(x - startX) * 1.2;
+                            discoverSlider.scrollLeft=scrollLeft - walk;
+                        });
+            
+                    discoverSlider.addEventListener("mousedown", function (e) {
+                            isDown=true;
+                            discoverSlider.classList.add("dragging");
+                            startX=e.pageX - discoverSlider.offsetLeft;
+                            scrollLeft=discoverSlider.scrollLeft;
+                        });
+            
+                    window.addEventListener("mouseup", function () {
+                            isDown=false;
+                            discoverSlider.classList.remove("dragging");
+                        });
+            
+                    discoverSlider.addEventListener("touchstart",
+                        function (e) {
+                            const touch=e.touches[0];
+                            startX=touch.pageX - discoverSlider.offsetLeft;
+                            scrollLeft=discoverSlider.scrollLeft;
+                        }
+            
+                        ,
+                        {
+                        passive: true
+                    });
+            
+                discoverSlider.addEventListener("touchmove",
+                    function (e) {
+                        const touch=e.touches[0];
+                        const x=touch.pageX - discoverSlider.offsetLeft;
+                        const walk=(x - startX) * 1.1;
+                        discoverSlider.scrollLeft=scrollLeft - walk;
+                    }
+            
+                    ,
+                    {
+                    passive: true
+                });
+            
+                discoverSlider.querySelectorAll("a").forEach(function (link) {
+                        link.addEventListener("dragstart", function (e) {
+                                e.preventDefault();
+                            });
+                    });
+                }
+            
+        </script>
+        <script>
+            const trendingSlider = document.getElementById("trendingSlider");
+            const trendCards = document.querySelectorAll(".trend-card");
+            const cartDrawer = document.getElementById("cartDrawer");
+            const cartBackdrop = document.getElementById("cartBackdrop");
+            const cartItemsContainer = document.getElementById("cartItems");
+            const cartSubtotal = document.getElementById("cartSubtotal");
+            const cartToggle = document.getElementById("cartToggle");
+            const cartToggleMobile = document.getElementById("cartToggleMobile");
+            const cartClose = document.getElementById("cartClose");
+            const cartCount = document.getElementById("cartCount");
+            const cartCountMobile = document.getElementById("cartCountMobile");
+
+            let cart = [];
+
+            if (trendingSlider) {
+                let isDragging = false;
+                let startX = 0;
+                let scrollLeft = 0;
+
+                trendingSlider.addEventListener("mousedown", function (e) {
+                    isDragging = true;
+                    trendingSlider.classList.add("dragging");
+                    startX = e.pageX - trendingSlider.offsetLeft;
+                    scrollLeft = trendingSlider.scrollLeft;
+                });
+
+                trendingSlider.addEventListener("mouseleave", function () {
+                    isDragging = false;
+                    trendingSlider.classList.remove("dragging");
+                });
+
+                trendingSlider.addEventListener("mouseup", function () {
+                    isDragging = false;
+                    trendingSlider.classList.remove("dragging");
+                });
+
+                trendingSlider.addEventListener("mousemove", function (e) {
+                    if (!isDragging) return;
+                    e.preventDefault();
+                    const x = e.pageX - trendingSlider.offsetLeft;
+                    const walk = (x - startX) * 1.15;
+                    trendingSlider.scrollLeft = scrollLeft - walk;
+                });
+
+                trendingSlider.addEventListener("touchstart", function (e) {
+                    const touch = e.touches[0];
+                    startX = touch.pageX - trendingSlider.offsetLeft;
+                    scrollLeft = trendingSlider.scrollLeft;
+                }, { passive: true });
+
+                trendingSlider.addEventListener("touchmove", function (e) {
+                    const touch = e.touches[0];
+                    const x = touch.pageX - trendingSlider.offsetLeft;
+                    const walk = (x - startX) * 1.1;
+                    trendingSlider.scrollLeft = scrollLeft - walk;
+                }, { passive: true });
+
+                trendingSlider.addEventListener("wheel", function (e) {
+                    if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+                        e.preventDefault();
+                        trendingSlider.scrollLeft += e.deltaY;
+                    }
+                }, { passive: false });
+            }
+
+            trendCards.forEach(function (card) {
+                const metalButtons = card.querySelectorAll(".metal-btn");
+                const metalLabel = card.querySelector(".metal-label");
+                const priceEl = card.querySelector(".trend-price");
+                const addBtn = card.querySelector(".add-cart-btn");
+
+                let selectedMetal = "gold";
+
+                function updateVariant(metal) {
+                    const goldPrice = Number(card.dataset.goldPrice);
+                    const silverPrice = Number(card.dataset.silverPrice);
+
+                    metalButtons.forEach(function (btn) {
+                        btn.classList.toggle("active", btn.dataset.metal === metal);
+                    });
+
+                    if (metal === "gold") {
+                        metalLabel.textContent = "18ct Gold Vermeil";
+                        priceEl.textContent = "$" + goldPrice;
+                    } else {
+                        metalLabel.textContent = "Sterling Silver";
+                        priceEl.textContent = "$" + silverPrice;
+                    }
+
+                    selectedMetal = metal;
+                }
+
+                metalButtons.forEach(function (btn) {
+                    btn.addEventListener("click", function () {
+                        updateVariant(btn.dataset.metal);
+                    });
+                });
+
+                addBtn.addEventListener("click", function () {
+                    const item = {
+                        id: card.dataset.productId + "-" + selectedMetal,
+                        baseId: card.dataset.productId,
+                        name: card.dataset.name,
+                        metal: selectedMetal === "gold" ? "18ct Gold Vermeil" : "Sterling Silver",
+                        price: selectedMetal === "gold"
+                            ? Number(card.dataset.goldPrice)
+                            : Number(card.dataset.silverPrice),
+                        image: card.dataset.image
+                    };
+
+                    const existing = cart.find(function (cartItem) {
+                        return cartItem.id === item.id;
+                    });
+
+                    if (existing) {
+                        existing.qty += 1;
+                    } else {
+                        cart.push({
+                            ...item,
+                            qty: 1
+                        });
+                    }
+
+                    renderCart();
+                    openCart();
+                });
+
+                updateVariant("gold");
+            });
+
+            function openCart() {
+                if (!cartDrawer || !cartBackdrop) return;
+
+                cartDrawer.classList.add("active");
+                cartBackdrop.classList.add("active");
+                cartDrawer.setAttribute("aria-hidden", "false");
+                cartBackdrop.setAttribute("aria-hidden", "false");
+                document.body.classList.add("overflow-hidden");
+            }
+
+            function closeCart() {
+                if (!cartDrawer || !cartBackdrop) return;
+
+                cartDrawer.classList.remove("active");
+                cartBackdrop.classList.remove("active");
+                cartDrawer.setAttribute("aria-hidden", "true");
+                cartBackdrop.setAttribute("aria-hidden", "true");
+                document.body.classList.remove("overflow-hidden");
+            }
+
+            function getCartCount() {
+                return cart.reduce(function (total, item) {
+                    return total + item.qty;
+                }, 0);
+            }
+
+            function getSubtotal() {
+                return cart.reduce(function (total, item) {
+                    return total + (item.price * item.qty);
+                }, 0);
+            }
+
+            function updateCartCounts() {
+                const count = getCartCount();
+
+                if (cartCount) {
+                    cartCount.textContent = count;
+                }
+
+                if (cartCountMobile) {
+                    cartCountMobile.textContent = count;
+                }
+            }
+
+            function renderCart() {
+                if (!cartItemsContainer || !cartSubtotal) return;
+
+                updateCartCounts();
+
+                if (cart.length === 0) {
+                    cartItemsContainer.innerHTML = '<div class="cart-empty">Your bag is currently empty.</div>';
+                    cartSubtotal.textContent = "$0";
+                    return;
+                }
+
+                cartItemsContainer.innerHTML = cart.map(function (item) {
+                    return `
+                        <div class="cart-item">
+                            <img src="${item.image}" alt="${item.name}" class="cart-item-image" />
+                            <div>
+                            <h4 class="cart-item-title">${item.name}</h4>
+                            <p class="cart-item-meta">${item.metal} · Qty ${item.qty}</p>
+                            <p class="cart-item-price">$${item.price * item.qty}</p>
+                            </div>
+                            <button type="button" class="cart-remove-btn" data-remove-id="${item.id}">
+                            Remove
+                            </button>
+                        </div>
+                        `;
+                }).join("");
+
+                cartSubtotal.textContent = "$" + getSubtotal();
+
+                cartItemsContainer.querySelectorAll(".cart-remove-btn").forEach(function (btn) {
+                    btn.addEventListener("click", function () {
+                        const id = btn.dataset.removeId;
+
+                        cart = cart.filter(function (item) {
+                            return item.id !== id;
+                        });
+
+                        renderCart();
+                    });
+                });
+            }
+
+            if (cartToggle) {
+                cartToggle.addEventListener("click", function () {
+                    openCart();
+                });
+            }
+
+            if (cartToggleMobile) {
+                cartToggleMobile.addEventListener("click", function () {
+                    openCart();
+                });
+            }
+
+            if (cartClose) {
+                cartClose.addEventListener("click", function () {
+                    closeCart();
+                });
+            }
+
+            if (cartBackdrop) {
+                cartBackdrop.addEventListener("click", function () {
+                    closeCart();
+                });
+            }
+
+            document.addEventListener("keydown", function (e) {
+                if (e.key === "Escape") {
+                    closeCart();
+                }
+            });
+
+            renderCart();
+        </script>
+        <script>
+            const track = document.getElementById("brandTrack");
+                const original = track.innerHTML;
+
+                function updateSlider() {
+
+                    if (window.innerWidth <= 1024) {
+
+                        if (track.children.length === 1) {
+                            track.innerHTML += original;
+                        }
+
+                        track.style.width = "max-content";
+                        track.style.animation = "marquee 40s linear infinite";
+
+                    } else {
+
+                        track.innerHTML = original;
+                        track.style.animation = "none";
+                        track.style.width = "100%";
+                        track.style.justifyContent = "center";
+
+                    }
+
+                }
+
+                updateSlider();
+
+                window.addEventListener("resize", updateSlider);
+        </script>
+        <script>
+            const igTrack = document.getElementById("kyokaIgTrack");
+
+            let isDown = false;
+            let startX = 0;
+            let scrollLeft = 0;
+
+            igTrack.addEventListener("mousedown", (e) => {
+                if (window.innerWidth < 1024) return;
+                isDown = true;
+                igTrack.classList.add("is-dragging");
+                startX = e.pageX - igTrack.offsetLeft;
+                scrollLeft = igTrack.scrollLeft;
+            });
+
+            igTrack.addEventListener("mouseleave", () => {
+                isDown = false;
+                igTrack.classList.remove("is-dragging");
+            });
+
+            igTrack.addEventListener("mouseup", () => {
+                isDown = false;
+                igTrack.classList.remove("is-dragging");
+            });
+
+            igTrack.addEventListener("mousemove", (e) => {
+                if (!isDown || window.innerWidth < 1024) return;
+                e.preventDefault();
+                const x = e.pageX - igTrack.offsetLeft;
+                const walk = (x - startX) * 1.2;
+                igTrack.scrollLeft = scrollLeft - walk;
+            });
+        </script>
+    </body>
+</html>
